@@ -8,7 +8,7 @@ export default function Home() {
         <title>Fresh App</title>
         <link type="text/css" rel="stylesheet" href="/reset.css"></link>
       </Head>
-      <div class="p-4 mx-auto w-full h-full bg-red-600">
+      <div class="p-4 w-full h-full bg-gradient-to-t from-[#5b1f65] to-[#c842dd]">
         <img
           src="/logo.svg"
           class="w-32 h-32"
