@@ -1,0 +1,6 @@
+body {
+    background-color: var(--primary-bg);
+
+    /* TODO: Replace with tailwind colors!  */
+    color: var(--primary-font-color);
+}

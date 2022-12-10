@@ -1,0 +1,9 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+    --primary-bg: black;
+    --primary-font-color: rgb(228, 227, 227);
+}
+
