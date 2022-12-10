@@ -4,5 +4,5 @@
 	-webkit-text-fill-color: transparent;
 
 	/* TODO: Figure out full Frosted-Glass Text!  */
-	backdrop-filter: blur(8px);
+	/* backdrop-filter: blur(8px); */
 }
