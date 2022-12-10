@@ -8,6 +8,7 @@ export function Layout(props: JSX.HTMLAttributes<HTMLButtonElement>) {
       <Head>
         <title>Tailwind in Fresh</title>
         <link rel="stylesheet" href="./reset.css"></link>
+        <link rel="stylesheet" href="./not-twind-integrated.css"></link>
         <link rel="stylesheet" href="./theme.css"></link>
         <link rel="stylesheet" href="./global.css"></link>
       </Head>
