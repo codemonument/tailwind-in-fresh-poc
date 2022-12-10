@@ -1,11 +1,13 @@
 import { Head } from "$fresh/runtime.ts";
+import { HeroBanner } from "../components/HeroBanner.tsx";
 import { Layout } from "../components/Layout.tsx";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
     <Layout>
-      <main class="p-4 w-full h-full bg-gradient-to-t from-[#5b1f65] to-[#c842dd]">
+      <main class="p-4 w-full h-full ">
+        <HeroBanner></HeroBanner>
         <img
           src="/logo.svg"
           class="w-32 h-32"
