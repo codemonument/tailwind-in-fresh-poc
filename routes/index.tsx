@@ -1,14 +1,11 @@
 import { Head } from "$fresh/runtime.ts";
+import { Layout } from "../components/Layout.tsx";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Fresh App</title>
-        <link type="text/css" rel="stylesheet" href="/reset.css"></link>
-      </Head>
-      <div class="p-4 w-full h-full bg-gradient-to-t from-[#5b1f65] to-[#c842dd]">
+    <Layout>
+      <main class="p-4 w-full h-full bg-gradient-to-t from-[#5b1f65] to-[#c842dd]">
         <img
           src="/logo.svg"
           class="w-32 h-32"
@@ -19,7 +16,7 @@ export default function Home() {
           ./routes/index.tsx file, and refresh.
         </p>
         <Counter start={3} />
-      </div>
-    </>
+      </main>
+    </Layout>
   );
 }
