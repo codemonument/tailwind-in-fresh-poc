@@ -2,4 +2,7 @@
 	/* background-clip: content-box; */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+
+	/* TODO: Figure out full Frosted-Glass Text!  */
+	backdrop-filter: blur(8px);
 }
